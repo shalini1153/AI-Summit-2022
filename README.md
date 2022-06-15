@@ -17,3 +17,5 @@ Problem 3: Design an ideal diet that meets the nutrition requirements while mini
 Approach:
 •	Algorithm: Linear Programming
 •	Why: We chose this linear approach for multiple reasons. Few reasons being less amount of data available, a lot of time needed for data cleaning, time constraint overall and back propagation using gradient descent on cost function seems to be the best way to minimise cost (emissions) and maximise value (nutrition).
+We have basically created two matrix one which represents all the food items with nutritional values and second with all the nutrient contents 
+The dot product then needs to be compared with the cost function and the resulting cost function will be the maximum nutrient and minimum emission
